@@ -33,4 +33,4 @@ for c in itertools.product(alphabet, repeat=rept):
         exit(0)
 
 # Only occurs if none of the combinations worked
-print 'Password not found'
+print 'Password not found, try a different rept or adding special characters to the alphabet'
