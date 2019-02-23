@@ -4,6 +4,7 @@ import zipfile
 import itertools
 import time
 
+
 def extract_file(zippy, paswrd):
     try:
         zippy.extractall(pwd=paswrd)
@@ -13,6 +14,7 @@ def extract_file(zippy, paswrd):
     except Exception, e:
         pass
 
+    
 #path to file
 zip_file_name = ""
 
