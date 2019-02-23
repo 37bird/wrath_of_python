@@ -19,7 +19,7 @@ zip_file_name = ""
 alphabet = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890'
 zip_file = zipfile.ZipFile(zip_file_name)
 
-for i in range(10): #please god let there not be a password longer than 12
+for i in range(10): #please god let there not be a password longer than 10
     for c in itertools.product(alphabet, repeat=i):
         # Slowing it down on purpose to make it work better with web terminals
         # Remove at your peril
@@ -33,4 +33,4 @@ for i in range(10): #please god let there not be a password longer than 12
              exit(0)
 
 # If no password was found by the end, tell us
-print 'Password not found.'
+print 'Password not found, try adding special characters to the alphabet.'
