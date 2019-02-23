@@ -17,6 +17,7 @@ def extract_file(zippy, paswrd):
     except Exception, e:
         pass
 
+    
 alphabet = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890'
 zip_file = zipfile.ZipFile(zip_file_name)
 
